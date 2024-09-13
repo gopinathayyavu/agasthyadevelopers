@@ -31,6 +31,7 @@
 }
 
 body {
+    display: flex;
     justify-content: center;
     align-items: center;
     background-color: #d485fcbe;
@@ -64,7 +65,7 @@ body {
     }
 }
 
-.login-btn{
+.login-btn {
     border: none;
     padding: 10px;
     background-color: blueviolet;
@@ -76,8 +77,23 @@ body {
     transition: 1s;
 }
 
-.login-btn:hover{
+.login-btn:hover {
     background-color: black;
+}
+
+@media (max-width: 480px) {
+    body {
+        justify-content: center;
+        align-items: center;
+        background-color: #d485fcbe;
+    }
+    .login-btn {
+        width: 80%;
+    }
+
+    .typing-effect {
+        font-size: 12px;
+    }
 }
 
 /* @media (min-width: 481px) and (max-width: 768px) {
