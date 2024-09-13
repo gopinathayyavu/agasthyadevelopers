@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    justify-content: center;
+    text-align: center;
+}
+
+.logo-size {
+    height: 150px;
+    width: 150px;
+    animation: continuous-rotation 5s linear infinite;
+}
+
+@keyframes continuous-rotation {
+    from {
+        transform: rotate(0deg);
+        /* Start at 0 degrees */
+    }
+
+    to {
+        transform: rotate(360deg);
+        /* End at 360 degrees */
+    }
+}
+
+.logo-size1 {
+    height: 100px;
+    animation: bounce 2s ease-in-out;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #d485fcbe;
+    margin: 0;
+}
+
+/* .font-txt{
+    font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+    letter-spacing: 5px;
+    font-size: 16px;
+    color: black;
+} */
+
+.font-txt {
+    letter-spacing: 5px;
+    font-size: 11px;
+    font-family: Arial, sans-serif;
+    color: black !important;
+    font-weight: 10;
+    margin-top: -25px;
+}
+
+.typing-effect {
+    font-family: monospace;
+    /* Optional: For a typewriter-like font */
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid transparent;
+    /* No visible cursor */
+    animation: typing 4s steps(40, end);
+    margin-top: 1rem;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+.login-tin{
+    border: none;
+    padding: 10px;
+    background-color: blueviolet;
+    color: aliceblue;
+    margin-top: 1rem;
+    width: 100%;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.login-tin:hover{
+    background-color: black;
+}
