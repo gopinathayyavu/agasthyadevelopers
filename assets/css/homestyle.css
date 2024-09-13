@@ -34,7 +34,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #d485fcbe;
+    /* background-color: #d485fcbe; */
+    background: #d485fcbe;
+    background: linear-gradient(90deg, #d485fcbe 0%, #a849d8be 35%, #7200acbe 100%);
 }
 
 .font-txt {
@@ -87,6 +89,7 @@ body {
         align-items: center;
         background-color: #d485fcbe;
     }
+
     .login-btn {
         width: 80%;
     }
