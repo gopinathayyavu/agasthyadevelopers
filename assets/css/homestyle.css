@@ -6,6 +6,7 @@
 .container {
     justify-content: center;
     text-align: center;
+    margin-top: 50%;
 }
 
 .logo-size {
@@ -35,7 +36,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     background-color: #d485fcbe;
 }
 
