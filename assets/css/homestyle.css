@@ -6,7 +6,7 @@
 .container {
     justify-content: center;
     text-align: center;
-    margin-top: 50%;
+    margin-top: 40%;
 }
 
 .logo-size {
@@ -18,12 +18,10 @@
 @keyframes continuous-rotation {
     from {
         transform: rotate(0deg);
-        /* Start at 0 degrees */
     }
 
     to {
         transform: rotate(360deg);
-        /* End at 360 degrees */
     }
 }
 
@@ -38,13 +36,6 @@ body {
     align-items: center;
     background-color: #d485fcbe;
 }
-
-/* .font-txt{
-    font-family: 'Calibri', 'Trebuchet MS', sans-serif;
-    letter-spacing: 5px;
-    font-size: 16px;
-    color: black;
-} */
 
 .font-txt {
     letter-spacing: 5px;
@@ -88,4 +79,12 @@ body {
 
 .login-tin:hover{
     background-color: black;
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .container {
+        justify-content: center;
+        text-align: center;
+        margin-top: 20%;
+    }
 }
