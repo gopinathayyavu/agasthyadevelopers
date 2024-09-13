@@ -57,11 +57,9 @@ body {
 
 .typing-effect {
     font-family: monospace;
-    /* Optional: For a typewriter-like font */
     white-space: nowrap;
     overflow: hidden;
     border-right: 2px solid transparent;
-    /* No visible cursor */
     animation: typing 4s steps(40, end);
     margin-top: 1rem;
 }
